@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  color: white;
+  background: #EBf2f5;
+}
+:root {
+  font-size: 62.5%;
+}
+body,
+input,
+button,
+textarea {
+  font: 400 1.8rem/1 "Nunito", sans-serif;
+}
+
+
+
+
+.animate-up{
+    animation-name: up;
+    animation-duration: 300ms;
+    animation-fill-mode: backwards;
+
+}
+
+#logo{
+    animation-delay: 50ms;
+
+}
+
+.location{
+    animation-delay: 100;
+}
+
+main h1{
+    animation-delay:150ms;
+}
+ .visit p{
+     animation-delay:200ms;
+ }
+ .visit a{ 
+     animation-delay:250ms;
+ }
+
