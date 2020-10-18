@@ -20,7 +20,7 @@ Database.then( async db => {
   })
     //CONSULTAR DADOS DA TABELA
      const selectedOrphanage = await db.all("SELECT * FROM orphanages")
-     console.log(selectedOrphanage) 
+     console.log(selectedOrphanage)
     
  const orphanage = await db.all(
    'SELECT *FROM orphanages WHERE id = "1"')
@@ -28,9 +28,8 @@ Database.then( async db => {
  
    // delete dados da tabela
 
- /*console.log(await db.run('DELETE FROM orphanages WHERE id=""')*/
-
+  /*console.log(await db.run('DELETE FROM orphanages WHERE id = "3"'))*/
  
-
+ 
 })
       
